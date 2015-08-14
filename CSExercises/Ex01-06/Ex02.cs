@@ -10,6 +10,16 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+             int A = 0;
+             int B = 0;
+          
+
+            Console.WriteLine("Please enter a integer: ");
+
+            A = int.Parse(Console.ReadLine());
+            B = A*A;
+            Console.WriteLine("Answer: " +B);
+
             
         }
     }
