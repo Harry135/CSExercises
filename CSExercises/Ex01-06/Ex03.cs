@@ -10,7 +10,16 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Double A = 0;
+            Double B = 0;
+
+            Console.WriteLine("Please enter a Double precision Number");
+
+            A = double.Parse(Console.ReadLine());
+            B = A * A;
+
+            Console.WriteLine("Answer: " + B);
+
         }
     }
 }
