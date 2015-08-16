@@ -11,7 +11,7 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             int x1, x2, y1, y2;
-            float D;
+            double D;
 
             Console.WriteLine("Enter the X coordinate of the first point(X1): ");
             x1 = int.Parse(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace CSExercises
             Console.WriteLine("Enter the Y coordinate of the first point(Y2): ");
             y2 = int.Parse(Console.ReadLine());
 
-            D = ((x2 - x1)*(x2 - x1)) + ((y2 - y1)*(y2 - y1));
+            D = Math.Sqrt(((x2 - x1)*(x2 - x1)) + ((y2 - y1)*(y2 - y1)));
             Console.WriteLine("The distance between ({0},{1}) and ({2},{3}) is {4}  ",x1, y1, x2, y2,D);
             
             
