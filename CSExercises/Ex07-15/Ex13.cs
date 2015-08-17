@@ -14,9 +14,7 @@ namespace CSExercises
             double TC = 0;// the total cost
             double FC = 2.40; // fixed charge
             double CPKM = 0.40; // cost per KM travelled
-            double A = 0;
-            double B = 0;
-            int C = 0;
+            
             Console.WriteLine("Enter the distance travelled: ");
 
             D = double.Parse(Console.ReadLine());
