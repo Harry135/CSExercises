@@ -21,7 +21,7 @@ namespace CSExercises
 
             D = double.Parse(Console.ReadLine());
             TC = FC + (D * CPKM);
-            Double TC1 = Math.Ceiling(TC);
+            Double TC1 = Math.Ceiling(TC*10)/10;
                   
             Console.WriteLine("The Total cost for the journey: ${0:#.00} ", TC1);
                        
