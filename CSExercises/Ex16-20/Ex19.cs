@@ -13,10 +13,10 @@ namespace CSExercises
             double TD = 0; // Total Distance
             double MD = 0.5;// minimum distance
             double CD = 8.5;// distance for which the value is 0.04 for 0.1 KM
-            double AD = 0; // Altered distance after the first 0.5 KM
+            //double AD = 0; // Altered distance after the first 0.5 KM
             double TC = 0; // totlal cost
             double MC = 2.40; // Minimum cost
-            Double CapD = 0;
+           // Double CapD = 0;
 
             Console.WriteLine("Please enter the total distance(km) travelled: ");
             TD = double.Parse(Console.ReadLine());
